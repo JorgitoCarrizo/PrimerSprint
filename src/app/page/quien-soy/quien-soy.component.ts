@@ -15,4 +15,7 @@ export class QuienSoyComponent implements OnInit {
   volver(){
     this.rutas.navigate(['bienvenido'])
   }
+  quienSoy(){
+    this.rutas.navigate(['quienSoy']);
+  }
 }
