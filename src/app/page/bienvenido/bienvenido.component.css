@@ -2,4 +2,11 @@
 body {
     min-height: 75rem;
   }
-  
+
+.imagenFondo{
+    position:cover;
+	left: 0;
+	top: 0;
+	width:100%;
+    gap: 0;
+}

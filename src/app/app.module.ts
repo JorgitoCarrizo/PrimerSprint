@@ -8,6 +8,7 @@ import { BienvenidoComponent } from './page/bienvenido/bienvenido.component';
 import { ErrorComponent } from './page/error/error.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { QuienSoyComponent } from './page/quien-soy/quien-soy.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     BienvenidoComponent,
     ErrorComponent,
+    QuienSoyComponent,
     
   ],
   imports: [
