@@ -7,9 +7,12 @@ import { Router } from '@angular/router';
 })
 export class QuienSoyComponent implements OnInit {
 
-  constructor() { }
+  constructor(private rutas:Router) { }
 
   ngOnInit(): void {
   }
 
+  volver(){
+    this.rutas.navigate(['bienvenido'])
+  }
 }
