@@ -1,12 +1,17 @@
 /* Show it's not fixed to the top */
 body {
     min-height: 75rem;
+    background-color: grey;
   }
 
 .imagenFondo{
-    position:cover;
-	left: 0;
-	top: 0;
-	width:100%;
-    gap: 0;
+    background-color: grey;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding: 5%;
+    
 }
+
