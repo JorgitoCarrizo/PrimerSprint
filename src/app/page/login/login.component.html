@@ -1,0 +1,20 @@
+<h1>USUARIO CORRECTO usuario:Jorge password:password</h1>
+<form class="form-signin">
+    <img class="mb-4" src="../../../assets/wellcome.jpg" alt="" width="272" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Por favor ingresar</h1>
+    <label for="inputEmail" class="sr-only">Usuario</label>
+    
+    
+    <input  type="text" [ngModelOptions]="{standalone: true}" class="form-control" placeholder="Usuario" required autofocus [(ngModel)]="nombre">
+
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required [ngModelOptions]="{standalone: true}" [(ngModel)]="password">
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Recordarme
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" (click)=ingresar()>ingresar</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017-2021</p>
+</form>
+
